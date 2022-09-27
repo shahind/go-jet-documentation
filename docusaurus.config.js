@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Go-Jet',
   tagline: 'A lightweight and fast framework for Golang',
-  url: 'https://shahind.github.io/go-jet',
+  url: 'https://shahind.github.io/go-jet-documentation',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'shahind', // Usually your GitHub org/user name.
-  projectName: 'go-jet', // Usually your repo name.
+  projectName: 'go-jet-documentation', // Usually your repo name.
   trailingSlash: true,
   i18n: {
     defaultLocale: 'fa',
