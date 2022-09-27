@@ -21,7 +21,7 @@ function HomepageHeader() {
         </h1>
         <p className="hero__subtitle">{
           <Translate id="homepage.subtitle">
-            Go-Web is a web framework for Golang that makes it simple to write fast, secure web applications without sacrificing flexibility, usability, or type safety.
+            Go-Jet is a web framework for Golang that makes it simple to write fast, secure web applications without sacrificing flexibility, usability, or type safety.
           </Translate>
         }</p>
         <div className={styles.buttons}>
@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} - The Golang web framework`}
-      description="Go-Web is a web application framework that allow developer to focus on what matter.">
+      description="Go-Jet is a web application framework that allow developer to focus on what matter.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

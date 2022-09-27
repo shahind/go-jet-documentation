@@ -1,6 +1,6 @@
 # Models
 Didalam framework MVC, models bertanggung-jawab dalam melakukan interkasi logis terhadap database.
-Go-Web disini mengambil fitur dari library GORM untuk melakukan modelisasi tadi (lihat dokumentasi [GORM](https://gorm.io/docs/models.html) untuk informasi lanjut terkait modeling).
+Go-Jet disini mengambil fitur dari library GORM untuk melakukan modelisasi tadi (lihat dokumentasi [GORM](https://gorm.io/docs/models.html) untuk informasi lanjut terkait modeling).
 Alfred may even help you to create a new model, in fact you can run the following command to automatically generate and register a custom model.
 Alfred bisa membantu kamu untuk membuat sebuah model baru. malah, kamu bisa langsung coba jalankan command berikut untuk membuat sekaligus meregister sebuah custom model secara otomatis.
 
@@ -56,7 +56,7 @@ func (User) Seed(db *gorm.DB) {
 }
 ```
 :::tip
-Go-Web menggunakan GoFakeIt untuk membuat data acak (random), lihat dokumentasi dari library tadi untuk informasi lanjut terkait implementasinya.
+Go-Jet menggunakan GoFakeIt untuk membuat data acak (random), lihat dokumentasi dari library tadi untuk informasi lanjut terkait implementasinya.
 :::
 
 Seeder bisa dieksekusi dengan menjalankan command berikut:

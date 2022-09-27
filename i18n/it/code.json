@@ -188,7 +188,7 @@
     "description": "The title of the homepage"
   },
   "homepage.subtitle":{
-    "message": "Go-Web è un framework per lo sviluppo di microservizi web che permette il rapido sviluppo di applicazioni sicure e veloci senza sacrificare flessibilità, usabilità e tipizzazione.",
+    "message": "Go-Jet è un framework per lo sviluppo di microservizi web che permette il rapido sviluppo di applicazioni sicure e veloci senza sacrificare flessibilità, usabilità e tipizzazione.",
     "description": "The subtitle of the homepage"
   },
   "homepage.features.first.title": {

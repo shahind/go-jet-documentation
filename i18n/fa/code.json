@@ -1,0 +1,182 @@
+{
+  "theme.NotFound.title": {
+    "message": "صفحه پیدا نشد",
+    "description": "عنوان صفحه 404"
+  },
+  "theme.NotFound.p1": {
+    "message": "چیزی که به دنبال آن هستید پیدا نشد",
+    "description": "اولین پاراگراف صفحه 404"
+  },
+  "theme.NotFound.p2": {
+    "message": "لطفا به مسئول سایتی که شما را به اینجا هدایت کرده اطلاع بدهید که لینک خود را اصلاح کند",
+    "description": "دومین پاراگراف صفحه 404"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بستن",
+    "description": "برچسب دکمه بستن در نوار اعلان"
+  },
+  "theme.blog.archive.title": {
+    "message": "بایگانی",
+    "description": "عنوان صفحه آرشیو در وبلاگ"
+  },
+  "theme.blog.archive.description": {
+    "message": "بایگانی",
+    "description": "توضیح صفحه آرشیو در ویلاگ"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ناوبری صفحه فرهست بلاگ",
+    "description": "عنوان صفحه بندی وبلاگ"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "پست های جدیدتر",
+    "description": "برچسب کلید ناوبری برای پست های جدیدتر(صفحه قبل)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "پست های قدیمی تر",
+    "description": "برچسب کلید ناوبری برای پست های قدیمی تر(صفحه بعد)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "یک دقیقه|{readingTime} دقیقه",
+    "description": "برچسب جمع \"{readingTime} دقیقه\". فرم جمع و مفرد را با علامت ( \"|\") جدا کنید، برای اطلاعات بیشتر به این صفحه مراجعه کنید. (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "ادامه مطلب",
+    "description": "برچسب دکمه ادامه مطلب"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "صفحه بندی صفحه پست وبلاگ",
+    "description": "برچسب صفحه بندی در صفحه پست وبلاگ"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "پست های جدیدتر",
+    "description": "دکمه صفحه بندی در صفحه وبلاگ برای پست های جدید یا صفحه قبل"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "پست های قدیمی تر",
+    "description": "دکمه صفحه بندی در صفحه وبلاگ برای پست های قدیمی یا صفحه بعد"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "ناوبری پست های اخیر وبلاگ",
+    "description": "برچسب پست های اخیر در نوارکناری وبلاگ"
+  },
+  "theme.blog.post.plurals": {
+    "message": "یک پست|{count} پست",
+    "description": "حالت جمع برای \"{count} پست\". فرم مفرد و جمع را با علامت ( \"|\") از هم جدا کنید برای اطلاعات بیشتر به این صفحه مراجعه کنید(see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} با برچسب \"{tagName}\"",
+    "description": "عنوان صفحه برای پست های فیلتر شده با برچسب"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "مشاهده تمام برچسب ها",
+    "description": "برچسب دکمه ای که به صفحه برچسب ها لینک شده است"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کپی در کلیپ بورد",
+    "description": "برچسب دکمه کپی در کلیپ بورد"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کپی شد",
+    "description": "برچسب دکمه پس از کپی شدن"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کپی",
+    "description": "برچسب دکمه کپی"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "باز کردن نوارکناری",
+    "description": "برچسب دکمه باز کردن (گسترش) نوار کناری"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "باز کردن نوارکناری",
+    "description": "برچسب دکمه باز کردن(گسترش) نوار کناری در صفحه مستندات"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ناوبری صفحه مستندات",
+    "description": "عنوان ناوبری صفحه مستندات"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "قبلی",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "بعدی",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "باز کردن نوارکناری",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "بازکردن نوار کناری",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "یک سند برچسب گذاری شده|{count} سند برچسب گذاری شده",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} با برچسب \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "این مستندات برای نسخه منتشر نشده {siteTitle} {versionLabel} هستند.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "این مستندات برای {siteTitle} {versionLabel}, هستند که دیگر پشتیبانی نمی شوند.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "برای مستندات به روزتر به {latestVersionLink} ({versionLabel}) مراجعه کنید",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "آخرین نسخه",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "ویرایش این صفحه",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "لینک مستقیم به عنوان",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " در {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " توسط {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخرین به روز رسانی{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← بازگشت به منو",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "نسخه ها",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "رفتن به محتوی اصلی",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "در این صفحه",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "برچسب ها:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "برچسب ها",
+    "description": "The title of the tag list page"
+  }
+}

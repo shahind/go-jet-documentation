@@ -1,7 +1,7 @@
 # Models
 
 Nel framework MVC i modello sono responsavili per dell'interazione con il database.
-Go-Web utilizza la libreria [GORM](https://gorm.io/docs/models.html) per gestire queste operazioni.
+Go-Jet utilizza la libreria [GORM](https://gorm.io/docs/models.html) per gestire queste operazioni.
 
 È possibile creare nuovi modelli utilizzando il comando `alfred model:create [model name]`.
 
@@ -33,7 +33,7 @@ Models: register.ModelRegister{
 Questo sarà responsabile di inserire dei dati all'interno della tabella del database gestira dal modello.
 
 :::tip
-Go-Web utilizza la libreria [GoFakeIt](https://github.com/brianvoe/gofakeit) per generare dati casuali.
+Go-Jet utilizza la libreria [GoFakeIt](https://github.com/brianvoe/gofakeit) per generare dati casuali.
 :::
 
 ```go title="Il metodo Seed"

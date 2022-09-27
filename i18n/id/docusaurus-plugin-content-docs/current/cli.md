@@ -2,7 +2,7 @@
 sidebar_label: Commands
 ---
 # Commands
-Alfred merupakan command-line interface (CLI) yang ada di Go-Web. Alfred menyediakan banyak command yang bisa membantu kamu ketika membuat aplikasimu. kamu bisa meng-kompile si Alfred dengan menjalankan 
+Alfred merupakan command-line interface (CLI) yang ada di Go-Jet. Alfred menyediakan banyak command yang bisa membantu kamu ketika membuat aplikasimu. kamu bisa meng-kompile si Alfred dengan menjalankan 
 `sudo make build-cli` di root projekmu.
 ```
 $ ./alfred show:commands
@@ -52,11 +52,11 @@ Seperti yang terlihat di figur 3, command ini memiliki dua method utama:
 * Register: digunakan oleh command `show:commands` untuk menunjukkan signatur dan deskripsi command.
 * Run: berisi logic utama dari custom commandmu.
 
-Hal terakhir yang perlu kita lakukan adalah me-registerkan custom command kita ini ke Go-Web register.
+Hal terakhir yang perlu kita lakukan adalah me-registerkan custom command kita ini ke Go-Jet register.
 Buka file `app/console/kernel.go` kemudian tambahkan sebuah pointer ke command bari di CommandRegister struct:
 
 ```go title="Struktur register command"
-// Commands configuration represent all Go-Web application conf
+// Commands configuration represent all Go-Jet application conf
 // Every command needs to be registered in the following list
 var (
     Commands = register.CommandRegister{

@@ -1,4 +1,4 @@
-# Controller {#controller}
+# کنترلر {#controller}
 
 Begin an MVC framework, Go-Jet uses controllers as request endpoints. Here developers can handle all the logic that has to be applied to the current request.
 

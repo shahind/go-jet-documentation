@@ -51,7 +51,7 @@ func NewBatmanMiddleware() BatmanMiddleware{
 ```
 Seperti yang sudah disebutkan sebelumnya, middleware bisa digunakan untuk memproses sebelum/sesudah request dan menggunakan method `next.ServeHTTP` untuk melanjutkan http request tadi ke controller. Kamu bisa melakukan apa-gitu sebelum atau/dan sesudah statement ini.
 
-Seperti yang bisa kamu lihat dari contoh diatas, middleware berisi tiga method berbeda. Yang paling penting sendiri itu yang `Handle` method yang berisi logic middlaware utamanya. Method yang kedua sama yang ketiga yaitu `GetName` dan `GetDescription`, mereka berdua ini digunakan di Go-Web kernel untuk mengkategorikan tiap-tiap middleware dan tidak boleh di-edit.
+Seperti yang bisa kamu lihat dari contoh diatas, middleware berisi tiga method berbeda. Yang paling penting sendiri itu yang `Handle` method yang berisi logic middlaware utamanya. Method yang kedua sama yang ketiga yaitu `GetName` dan `GetDescription`, mereka berdua ini digunakan di Go-Jet kernel untuk mengkategorikan tiap-tiap middleware dan tidak boleh di-edit.
 
 Tiap middleware harus punya sebuah contructor function yang mengembalikan sebuah instance dari middleware sekarang. Kamu bisa menggunakan function ini untuk meng-enable suatu middleware pada suatu route atau group gitu, dengan menambahkannya ke Field Middleware sebuah HTTP router.
 

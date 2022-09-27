@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6385a718-7199-4794-8d79-1928db927c13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/i18n/fa/code.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/cli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/configuration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/controller.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/installation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/middleware.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/migration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/models.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/routing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/service_container.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-plugin-content-docs/current/validation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-theme-classic/footer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i18n/fa/docusaurus-theme-classic/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cli.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/configuration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/controller.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/controller.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/models.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/routing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/routing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/service_container.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/service_container.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en/docusaurus-theme-classic/footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en/docusaurus-theme-classic/footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/en/docusaurus-theme-classic/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/en/docusaurus-theme-classic/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/cli.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/cli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/configuration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/controller.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/controller.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/middleware.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/middleware.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/models.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/routing.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/id/docusaurus-plugin-content-docs/current/routing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/code.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/code.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/cli.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/cli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/controller.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/controller.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/models.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/routing.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/routing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/service_container.md" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-plugin-content-docs/current/service_container.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-theme-classic/footer.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-theme-classic/footer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/it/docusaurus-theme-classic/navbar.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/it/docusaurus-theme-classic/navbar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FLlP2ioETAJB3MrdQwJXruTEgd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Web/Projects/Go-Jet Document/i18n/fa/docusaurus-plugin-content-docs",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\Projects\Go-Jet Document\i18n\fa\docusaurus-plugin-content-docs" />
+      <recent name="D:\Web\Projects\Go-Jet Document\i18n" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\Projects\Go-Jet Document\i18n\fa\docusaurus-plugin-content-docs\current" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6385a718-7199-4794-8d79-1928db927c13" name="Changes" comment="" />
+      <created>1664279217992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664279217992</updated>
+      <workItem from="1664279220865" duration="5519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,6 +1,6 @@
 # Controller {#controller}
 
-Essendo un framework MVC, Go-Web utilizza i controller per gestire le richieste HTTP. Al loro interno gli sviluppatori possono gestire ed implementare le logiche di business.
+Essendo un framework MVC, Go-Jet utilizza i controller per gestire le richieste HTTP. Al loro interno gli sviluppatori possono gestire ed implementare le logiche di business.
 
 È possibile creare un nuovo controller utilizzando il comando `alfred controller:create [controller name]`.
 
@@ -9,7 +9,7 @@ Essendo un framework MVC, Go-Web utilizza i controller per gestire le richieste 
 ```go title="Nuovo controller"
 package controller
 
-import "github.com/RobyFerro/go-web-framework"
+import "github.com/shahind/go-jet-framework"
 
 type SampleController struct{
     gwf.BaseController
@@ -31,8 +31,8 @@ All'interno dei metodi è possibile inserire la business logic dell'endpoint.
 package controller
 
 import (
-    "github.com/RobyFerro/go-web-framework"
-    "github.com/RobyFerro/go-web/exception"
+    "github.com/shahind/go-jet-framework"
+    "github.com/shahind/go-jet/exception"
 )
 
 type SampleController struct{
@@ -136,8 +136,8 @@ Dato che i controller sono eseguiti all'interno dei service container, tutti i m
 package controller
 
 import (
-    "github.com/RobyFerro/go-web-framework" 
-    "github.com/RobyFerro/go-web/database/model" 
+    "github.com/shahind/go-jet-framework" 
+    "github.com/shahind/go-jet/database/model" 
     "github.com/jinzhu/gorm"
 )
 

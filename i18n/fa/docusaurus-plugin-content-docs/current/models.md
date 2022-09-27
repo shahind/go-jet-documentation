@@ -1,4 +1,4 @@
-# Models {#models}
+# مدل {#models}
 
 In MVC frameworks models are responsible for the database interaction logic.
 Go-Jet takes advantage of the GORM library to provide them (see [GORM](https://gorm.io/docs/models.html) documentation for more information about models).

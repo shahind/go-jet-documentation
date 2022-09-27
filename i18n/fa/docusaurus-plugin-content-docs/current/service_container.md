@@ -1,4 +1,4 @@
-# Dependency Injection
+# تزریق وابستگی ها 
 
 Depedency Injection represent a powerful tool that injects dependencies into your application.
 

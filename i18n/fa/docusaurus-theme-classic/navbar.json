@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Go-Jet Project",
+    "message": "پروژه گو وب",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "مستندات",
     "description": "Navbar item with label Docs"
   },
   "item.label.GitHub": {
-    "message": "GitHub",
+    "message": "گیت هاب",
     "description": "Navbar item with label GitHub"
   }
 }

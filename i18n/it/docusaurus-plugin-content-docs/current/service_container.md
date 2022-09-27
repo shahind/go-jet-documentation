@@ -19,7 +19,7 @@ package service
 
 import (
  "fmt"
- "github.com/RobyFerro/go-web/config"
+ "github.com/shahind/go-jet/config"
  "github.com/go-redis/redis/v7"
  "github.com/labstack/gommon/log"
 )
@@ -55,13 +55,13 @@ Per poter registrare un servizio all'interno di un service container è necessar
 package register
 
 import (
-  "github.com/RobyFerro/go-web-framework"
-  "github.com/RobyFerro/go-web-framework/register"
-  "github.com/RobyFerro/go-web/app/console"
-  "github.com/RobyFerro/go-web/app/http/controller"
-  "github.com/RobyFerro/go-web/database/model"
-  "github.com/RobyFerro/go-web/router"
-  "github.com/RobyFerro/go-web/service"
+  "github.com/shahind/go-jet-framework"
+  "github.com/shahind/go-jet-framework/register"
+  "github.com/shahind/go-jet/app/console"
+  "github.com/shahind/go-jet/app/http/controller"
+  "github.com/shahind/go-jet/database/model"
+  "github.com/shahind/go-jet/router"
+  "github.com/shahind/go-jet/service"
 )
 
 func BaseEntities() foundation.BaseEntities {
@@ -108,8 +108,8 @@ Consiste nel service container utilizzato da tutti i comandi eseguiti da CLI.
 package console
 
 import (
- "github.com/RobyFerro/go-web-framework/register"
- "github.com/RobyFerro/go-web/service"
+ "github.com/shahind/go-jet-framework/register"
+ "github.com/shahind/go-jet/service"
 )
 
 var (
@@ -140,8 +140,8 @@ Basterà inserire il tipo di oggetto ritornato dal servizio come:
 package controller
 
 import (
-    "github.com/RobyFerro/go-web-framework" 
-    "github.com/RobyFerro/go-web/database/model" 
+    "github.com/shahind/go-jet-framework" 
+    "github.com/shahind/go-jet/database/model" 
     "github.com/jinzhu/gorm"
 )
 

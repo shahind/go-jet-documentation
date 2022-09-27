@@ -1,4 +1,4 @@
-# Configuration {#configuration}
+# پیکربندی {#configuration}
 
 ## Server configuration
 

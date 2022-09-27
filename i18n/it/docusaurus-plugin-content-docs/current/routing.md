@@ -1,6 +1,6 @@
 # Gestione delle rotte
 
-Go-Web gestisce tutte le richiesta HTTP in arrivo attraverso dei router. Questi sono semplici strutture che definiscono tutte le rotte/gruppi disponibili all'interno del servizio web. È possibile visionare/creare/modificare i router esistenti modificando il contenuto del pacchetto `router`.
+Go-Jet gestisce tutte le richiesta HTTP in arrivo attraverso dei router. Questi sono semplici strutture che definiscono tutte le rotte/gruppi disponibili all'interno del servizio web. È possibile visionare/creare/modificare i router esistenti modificando il contenuto del pacchetto `router`.
 
 I router devono essere un istanza di tipo `register.HTTPRouter` e devono implementere almeno una rotta o un gruppo.
 
@@ -70,8 +70,8 @@ Di seguito è riportato l'esempio di un router:
 package router
 
 import (
- "github.com/RobyFerro/go-web-framework/register"
- "github.com/RobyFerro/go-web/app/http/validation"
+ "github.com/shahind/go-jet-framework/register"
+ "github.com/shahind/go-jet/app/http/validation"
 )
 
 var AuthRouter = register.HTTPRouter{
@@ -103,7 +103,7 @@ var AuthRouter = register.HTTPRouter{
 Tutti i router, per poter essere implementati devono essere registrati all'interno del pacchetto `register`.
 
 ```go title="Registrazione dei router"
-// BaseEntities returns a struct that contains Go-Web base entities
+// BaseEntities returns a struct that contains Go-Jet base entities
 func BaseEntities() foundation.BaseEntities {
  return foundation.BaseEntities{
   // ... your base entities here ...

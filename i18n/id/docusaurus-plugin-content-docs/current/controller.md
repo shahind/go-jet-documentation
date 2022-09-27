@@ -1,15 +1,15 @@
 # Controller
-Saat memulai sebuah framework MVC, Go-Web menggunakan controller sebagai endpoint request. Disini developer bisa meng-handle semua logic yang akan diterapkan pada tiap request yang masuk. Kamu bisa membuat controller dengan menjalankan command berikut di console:
+Saat memulai sebuah framework MVC, Go-Jet menggunakan controller sebagai endpoint request. Disini developer bisa meng-handle semua logic yang akan diterapkan pada tiap request yang masuk. Kamu bisa membuat controller dengan menjalankan command berikut di console:
 ```bash
 ./alfred controller:create sample
 ```
-Kemudian Go-Web akan membuatkan sebuah file .go yang berisi sebuah controller bernama “SampleController” di dalam directory `/app/http/controller`.
+Kemudian Go-Jet akan membuatkan sebuah file .go yang berisi sebuah controller bernama “SampleController” di dalam directory `/app/http/controller`.
 Isinya akan berupa seperti berikut:
 
 ```go title="SampleController Baru"
 package controller
 
-import "github.com/RobyFerro/go-web-framework"
+import "github.com/shahind/go-jet-framework"
 
 type SampleController struct{
     gwf.BaseController
@@ -20,15 +20,15 @@ func (c *SampleController) Main(){
     // Insert your custom logic
 }
 ```
-Ketika membuat sebuah controller, Go-Web secara otomatis akan menambahkan controller tadi ke function Main, yang mana bisa diperluas dengan beberapa logic, seperti yang dicontohkan dibawah; controller bisa diperluas dengan menambahkan public function baru.
+Ketika membuat sebuah controller, Go-Jet secara otomatis akan menambahkan controller tadi ke function Main, yang mana bisa diperluas dengan beberapa logic, seperti yang dicontohkan dibawah; controller bisa diperluas dengan menambahkan public function baru.
 
 ```go title="SampleController dengan beberap logic"
 // Sample controller
 package controller
 
 import (
-    "github.com/RobyFerro/go-web-framework"
-    "github.com/RobyFerro/go-web/exception"
+    "github.com/shahind/go-jet-framework"
+    "github.com/shahind/go-jet/exception"
 )
 
 type SampleController struct{
@@ -43,17 +43,17 @@ func (c *SampleController) Main() {
 }
 ```
 
-Untuk mendapatkan akses ke semua aspek Go-Web controller, termasuk HTTP request dan response, sebuah controller haruslah meng-extend `gwf.BaseController`.
+Untuk mendapatkan akses ke semua aspek Go-Jet controller, termasuk HTTP request dan response, sebuah controller haruslah meng-extend `gwf.BaseController`.
 
-Karena service containernya digunakan untuk "menyelesaikan" semua controller di Go-Web. developer bisa type-hint tiap depedencynya karena depedency ini akan di-inject ke instansi controller, sebagaimana yang dijelaskan pada code dibawah:
+Karena service containernya digunakan untuk "menyelesaikan" semua controller di Go-Jet. developer bisa type-hint tiap depedencynya karena depedency ini akan di-inject ke instansi controller, sebagaimana yang dijelaskan pada code dibawah:
 
 ```go title="SampleController dengan DependencyInjection"
 // Dependency injection in controller
 package controller
 
 import (
-    "github.com/RobyFerro/go-web-framework" 
-    "github.com/RobyFerro/go-web/database/model" 
+    "github.com/shahind/go-jet-framework" 
+    "github.com/shahind/go-jet/database/model" 
     "github.com/jinzhu/gorm"
 )
 

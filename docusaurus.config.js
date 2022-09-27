@@ -4,19 +4,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Go-Web Project',
-  tagline: 'A lightweight framework for Golang',
-  url: 'https://goweb.ikdev.it',
+  title: 'Go-Jet',
+  tagline: 'A lightweight and fast framework for Golang',
+  url: 'https://shahind.github.io/go-jet',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'RobyFerro', // Usually your GitHub org/user name.
-  projectName: 'go-web', // Usually your repo name.
+  organizationName: 'shahind', // Usually your GitHub org/user name.
+  projectName: 'go-jet', // Usually your repo name.
   trailingSlash: true,
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fa',
+    locales: ['en','fa','it','id'],
   },
   plugins: [
     [
@@ -46,9 +46,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     {
       navbar: {
-        title: 'Go-Web',
+        title: 'Go-Jet',
         logo: {
-          alt: 'Go-Web',
+          alt: 'Go-Jet',
           src: 'img/logo.png',
         },
         items: [
@@ -64,7 +64,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           /*{to: '/blog', label: 'Blog', position: 'left'},*/
           {
-            href: 'https://github.com/RobyFerro/go-web',
+            href: 'https://github.com/shahind/go-jet',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,12 +91,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },*/
               {
                 label: 'GitHub',
-                href: 'https://github.com/RobyFerro/go-web',
+                href: 'https://github.com/shahind/go-jet',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Go-Web.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Go-Jet.`,
       },
       prism: {
         theme: lightCodeTheme,

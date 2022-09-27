@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "بعدی",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "شروع",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.Database": {
+    "message": "پایگاه داده",
+    "description": "The label for category Database in sidebar docs"
+  },
+  "sidebar.docs.category.Advanced": {
+    "message": "پیشرفته",
+    "description": "The label for category Advanced in sidebar docs"
+  },
+  "sidebar.docs.category.Request lifecycle": {
+    "message": "چرخه عمر ریکوئست",
+    "description": "The label for category Request lifecycle in sidebar docs"
+  }
+}

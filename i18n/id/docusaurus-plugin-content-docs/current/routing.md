@@ -1,5 +1,5 @@
 # Routing
-Go-Web menangani seluruh HTTP request di dalam router. Router disini memiliki struktur sederhana yang mendefinisikan tiap request/group-request yang ada dalam aplikasi web. Kamu bisa temukan dan definisikan semua router di dalam router package
+Go-Jet menangani seluruh HTTP request di dalam router. Router disini memiliki struktur sederhana yang mendefinisikan tiap request/group-request yang ada dalam aplikasi web. Kamu bisa temukan dan definisikan semua router di dalam router package
 
 Setiap router harus berupa instansiasi dari struktur register.HTTPRouter dan harus mengimplementasikan setidaknya satu route atau satu group-route.
 

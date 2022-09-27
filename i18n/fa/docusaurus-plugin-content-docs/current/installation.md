@@ -1,4 +1,4 @@
-# Installation {#installation}
+# نصب {#installation}
 
 You can download and install Go-Jet by following these steps`
 

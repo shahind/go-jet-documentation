@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Konfigurasi
 Semua struktur konfigurasi disimpan di dalam config folder. Sedangkan untuk konfigurasi dasar disimpan di file server.go yang digunakan untuk mengkostumisasi konfigurasi web server.
-Didalam config package kamu bisa menemukan struktur konfigurasi lain (MySQL, Redis dsb...) yang digunakan oleh beraneka-macam Go-Web services
+Didalam config package kamu bisa menemukan struktur konfigurasi lain (MySQL, Redis dsb...) yang digunakan oleh beraneka-macam Go-Jet services
 
 Kamu juga bisa membuat konfigurasi sendiri dengan menambahkan sebuah file di config package ini, beri nama
 sesuai dengan nama yang ingin kamu implementasikan.

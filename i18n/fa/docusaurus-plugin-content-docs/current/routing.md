@@ -1,4 +1,4 @@
-# Routing {#routing}
+# مسیربندی {#routing}
 
 Go-Jet handles all HTTP requests within routers. Routers are simple structures that define every request/group of requests included in the web application. You can find and define all the routers in the `router` package.
 

@@ -1,7 +1,7 @@
 # Comandi CLI {#cli}
 
-Alfred è la utility da linea di comando inclusa all'interno di Go-Web. Mette a disposizione dello sviluppatore molti comandi utili per velocizzare lo sviluppo. .
-Puoi installare Alfred eseguendo il comando `go install github.com/RobyFerro/cmd/alfred@latest`
+Alfred è la utility da linea di comando inclusa all'interno di Go-Jet. Mette a disposizione dello sviluppatore molti comandi utili per velocizzare lo sviluppo. .
+Puoi installare Alfred eseguendo il comando `go install github.com/shahind/cmd/alfred@latest`
 
 Lancia il comando `alfred show:commands` per visualizzare i comandi disponibili.
 
@@ -54,7 +54,7 @@ Come puoi vedere all'interno della figura il comando contiene due metodi princip
 L'ultima cosa che devi fare è registrare il comando all'interno della struttura `CommandRegister` presente all'interno del pacchetto `app/console`.
 
 ```go title="Struttura per la registrazione dei comandi CLI"
-// Commands configuration represent all Go-Web application conf
+// Commands configuration represent all Go-Jet application conf
 // Every command needs to be registered in the following list
 var (
     Commands = register.CommandRegister{
@@ -70,7 +70,7 @@ Esegui `alfred update` per aggiornare tutti i comandi presenti nell'applicazione
 
 ## Dependency injection {#-dependency-injection}
 
-Come per i controller, Go-Web permette l'utilizzo di servizi presenti all'interno del container IoC. Dichiarando un servizio all'interno della variabile `Services` presente nel file `console/kernel.go`, questo servizio verrà iniettato all'interno del comando.
+Come per i controller, Go-Jet permette l'utilizzo di servizi presenti all'interno del container IoC. Dichiarando un servizio all'interno della variabile `Services` presente nel file `console/kernel.go`, questo servizio verrà iniettato all'interno del comando.
 
 ```go title="DI all'interno di un comando CLI"
 type Seeder struct {

@@ -3,9 +3,9 @@ sidebar_position: 2
 ---
 # Installazione
 
-Puoi scaricare e installare Go-Web seguendo i seguenti passi:
+Puoi scaricare e installare Go-Jet seguendo i seguenti passi:
 
-* Esegui il comando `go install github.com/RobyFerro/cmd/alfred@latest` per installare l'ultima versione di Alfred
+* Esegui il comando `go install github.com/shahind/cmd/alfred@latest` per installare l'ultima versione di Alfred
 * Crea un nuovo servizio lanciando `alfred service:create [nome del servizio]`
 
 ## Docker
